@@ -7,16 +7,16 @@
        <section3 id="formation"></section3>
        <section4 id="international"></section4>
 
-       <v-footer class="grey darken-2">
-         <v-layout row wrap align-center>
-           <v-flex xs12>
+       <v-footer class="foot grey darken-2">
+         <!-- <v-layout row wrap align-center> -->
+           <!-- <v-flex xs12> -->
              <div class="white--text ml-3">
                Made with
                <v-icon class="red--text">favorite</v-icon>
                by Fabien Malmasson
              </div>
-           </v-flex>
-         </v-layout>
+           <!-- </v-flex> -->
+         <!-- </v-layout> -->
        </v-footer>
      </main>
    </v-app>
@@ -47,5 +47,8 @@ export default {
 .subtitle{
   color: #1697f6;
 }
-
+.foot{
+  display: flex;
+  justify-content: center;
+}
 </style>
