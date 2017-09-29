@@ -30,8 +30,8 @@ Après une v1 dans les assurances, me voici en version 2: développeur et j’
                 Configuration de l'environnement de travail sous Docker: Php-fpm, Redis, Postgres, Apache.</br>
               </br>Développement de fonctionnalités d'un logiciel Saas permettant l'optimisation de livraisons. Développement réalisé avec le framework Vue.js (similaire à  React et Angular)
                 respectant la version EcmaScript 6 de JavaScript. Le code est ensuite compilé avec Babel afin de permettre la compatibilité avec l'ensemble des browsers.</br>
-              </br>Front end : refonte de l'ensemble des formulaires de l'application pour passer du framework CSS Bootstrap à Element. Création de plusieurs composants ajoutant de nouvelles fonctionnalités avec notament un parser et mapping de fichier Excel ou Csv.
-            </br></br>Back end: personnalisation de la fonction de réinitilisation de mot de passe de Laravel, modification de Models, de Controllers, de Requests. Manipulation de données en BDD sous Tinker.
+              </br><strong>Front-end</strong> : refonte de l'ensemble des formulaires de l'application pour passer du framework CSS Bootstrap à Element. Création de plusieurs composants ajoutant de nouvelles fonctionnalités avec notament un parser et mapping de fichier Excel ou Csv.
+            </br></br><strong>Back-end</strong>: personnalisation de la fonction de réinitilisation de mot de passe de Laravel, modification de Models, de Controllers, de Requests. Manipulation de données en BDD sous Tinker.
               </v-card-text>
             </v-card>
           </v-flex>

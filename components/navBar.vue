@@ -47,6 +47,11 @@ export default {
       name: 'fa-linkedin',
       link: 'https://linkedin.com/in/fabien-malmasson-564b881b',
       tooltip: 'profile Linkedin'
+    },
+    {
+      name: 'fa-envelope',
+      link: 'mailto:fmalmasson@hotmail.com',
+      tooltip: 'fmalmasson@hotmail.com'
     }
     ]
   })
@@ -69,7 +74,7 @@ a:hover{
   color: black;
 }
 .item {
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 13px;
   letter-spacing: .15em;

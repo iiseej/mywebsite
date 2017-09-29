@@ -11,7 +11,7 @@
         <!-- <img src="fab.jpeg" alt="Vuetify.js"> -->
         <h2 class="mb-2 display-3">Développeur</h2>
         <em class="intro">
-          Moi, c'est Fabien et je serais ravi de faire un bout de chemin avec vous.</br>
+          Bonjour, moi c'est Fabien et je serais ravi de faire un bout de chemin avec vous.</br>
         </em>
         <!-- <div class="match">
           <img class="profile" src="cog.png" alt="">
@@ -139,7 +139,7 @@ export default {
       }
     ],
     languages: ['HTML', 'CSS', 'PHP', 'SQL'],
-    frameworks: ['JS : Vuejs', 'CSS : Bootstrap, Vuetify, Quasar, Element', 'PHP: Laravel'],
+    frameworks: ['Vuejs', 'Bootstrap', 'Vuetify', 'Quasar', 'Element', 'Laravel'],
     BDD: ['PostgreSQL', 'MySQL'],
     librairies: ['Webpack', 'Lodash', 'Babel'],
     Versionnings: ['Git', 'Bitbucket']
