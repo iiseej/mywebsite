@@ -6,28 +6,18 @@
         column
         align-center
         justify-center
-        class="white--text"
-      >
-        <!-- <img src="fab.jpeg" alt="Vuetify.js"> -->
+        class="white--text">
         <h2 class="mb-2 display-3">Développeur</h2>
         <em class="intro">
           Bonjour, moi c'est Fabien et je serais ravi de faire un bout de chemin avec vous.</br>
         </em>
-        <!-- <div class="match">
-          <img class="profile" src="cog.png" alt="">
-          <img class="profile" src="fabtete.png" alt="">
-        </div> -->
-
-
-        <v-btn
+        <!-- <v-btn
           class="blue lighten-2 mt-5"
           dark
           large
-          href="mailto:fmalmasson@hotmail.com"
-        >
+          href="mailto:fmalmasson@hotmail.com">
           me contacter
-        </v-btn>
-        <!-- <div class="subtitle mb-3 text-xs-center">Fabien MALMASSON</div> -->
+        </v-btn> -->
       </v-layout>
     </v-parallax>
   </section>
@@ -37,14 +27,10 @@
       column
       wrap
       class="my-5"
-      align-center
-    >
+      align-center>
       <v-flex xs12 sm4 class="my-3">
         <div class="text-xs-center">
           <h2 class="headline">Compétences</h2>
-          <!-- <span class="subheading">
-            techniques & humaines
-          </span> -->
         </div>
       </v-flex>
 
@@ -65,7 +51,6 @@
                   </br><span class="body-2">Frameworks: </span><span v-for="framework in frameworks"> {{ framework }}  </span></br>
                   </br><span class="body-2">Librairies: </span><span v-for="library in librairies"> {{ library }}  </span></br>
                   </br><span class="body-2">Versionning: </span><span v-for="versionning in Versionnings"> {{ versionning }}  </span>
-
                 </v-card-text>
               </v-card>
             </v-flex>
@@ -79,25 +64,9 @@
                   <div class="headline text-xs-center">soft-skills</div>
                 </v-card-title>
                 <v-card-text>
-                  Je suis quelqu'un de fiable et honnête qui n'hésite jamais à se remettre en question afin de progresser. D'humeur constante, je suis autant à l'aise à l'oral qu'à l'écrit. J'aime les challenges, résoudre des problèmes, être intellectuellement sollicité. Mes diverses expériences, tant professionnelles qu'humaines m'ont permis de développer mon ouverture d'esprit, mon sens des priorités et ma flexibilité. De nature autonome, j'aime le travail en équipe quand il est bien fait.
-                </v-card-text>
+Je suis quelqu'un de fiable et honnête qui n'hésite jamais à se remettre en question afin de progresser. D'humeur constante, je suis autant à l'aise à l'oral qu'à l'écrit. J'aime les challenges, résoudre des problèmes, être intellectuellement sollicité. Mes diverses expériences, tant professionnelles qu'humaines m'ont permis de développer mon ouverture d'esprit, mon sens des priorités et ma flexibilité. De nature autonome, j'aime le travail en équipe quand il est bien fait.                </v-card-text>
               </v-card>
             </v-flex>
-            <!-- <v-flex xs12 md4>
-              <v-card class="elevation-0 transparent">
-                <v-card-text class="text-xs-center">
-                  <v-icon x-large class="blue--text text--lighten-2">account_circle</v-icon>
-                </v-card-text>
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline text-xs-center">Savoir être</div>
-                </v-card-title>
-                <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                  Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
-                </v-card-text>
-              </v-card>
-            </v-flex> -->
           </v-layout>
         </v-container>
       </v-flex>

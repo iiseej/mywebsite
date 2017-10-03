@@ -3,9 +3,7 @@
     <section>
       <v-parallax src="formation.jpg" height="380">
         <v-layout column align-center justify-center>
-          <h1>Formation</h1>
-          <!-- <em>A 30 ans, j’ai su quitter un poste confortable afin de trouver un métier dans lequel je pouvais m’éclater tant sur le plan intellectuel qu’humain.
-Après une v1 dans les assurances, me voici en version 2: développeur et j’adore ça!</em> -->
+          <h2>Formation</h2>
           <v-btn
             class="blue lighten-2 mt-5"
             dark
@@ -13,7 +11,6 @@ Après une v1 dans les assurances, me voici en version 2: développeur et j’
             href="../cv.pdf">
             Télécharger mon CV
           </v-btn>
-
         </v-layout>
       </v-parallax>
     </section>

@@ -1,18 +1,17 @@
 <template lang="html">
   <v-toolbar fixed>
-      <!-- <v-spacer></v-spacer> -->
     <div>
     <v-toolbar-title class="grey--text darken-2">F. Malmass<span class="title-end">ON</span></v-toolbar-title>
-  </div>
-  <v-btn icon class="grey--text darken-2"
-    v-for="icon in icons"
-    :href="icon.link"
-    v-tooltip:bottom="{ html: icon.tooltip }"
-    >
-    <v-icon>{{ icon.name }}</v-icon>
-  </v-btn>
-  <v-spacer></v-spacer>
-  <a href="../cv.pdf" target="_blank"> CV</a>
+    </div>
+    <v-btn icon class="grey--text darken-2"
+      v-for="icon in icons"
+      :href="icon.link"
+      v-tooltip:bottom="{ html: icon.tooltip }"
+      >
+      <v-icon>{{ icon.name }}</v-icon>
+    </v-btn>
+    <v-spacer></v-spacer>
+    <a href="../cv.pdf" target="_blank"> CV</a>
     <div class="item grey--text darken-2" v-for="(item, index) in items">
       <router-link :to="item.link">{{ item.title }}</router-link>
     </div>

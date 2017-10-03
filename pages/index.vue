@@ -8,15 +8,11 @@
        <section4 id="international"></section4>
 
        <v-footer class="foot grey darken-2">
-         <!-- <v-layout row wrap align-center> -->
-           <!-- <v-flex xs12> -->
-             <div class="white--text ml-3">
-               Made with
-               <v-icon class="red--text">favorite</v-icon>
-               by Fabien Malmasson
-             </div>
-           <!-- </v-flex> -->
-         <!-- </v-layout> -->
+         <div class="white--text ml-3">
+           Made with
+           <v-icon class="red--text">favorite</v-icon>
+           by Fabien Malmasson
+         </div>
        </v-footer>
      </main>
    </v-app>
